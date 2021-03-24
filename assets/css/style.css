@@ -210,15 +210,27 @@ section > div > a{
 }
 /* /RIGHT */
 
-.img{
-    width: 40%;
-    object-fit: cover;
-    object-position: center;
+.img_container{
+    width: 150px;
+    height: 170px;
     margin: auto;
 }
 
+.image{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.mid_img_container{
+    width: 200px;
+    height: 170px;
+    margin: auto;
+}
+
+
 .txt_content{
-    margin: 10px auto;
+    margin: 20px auto;
     width: 85%;
 }
 
