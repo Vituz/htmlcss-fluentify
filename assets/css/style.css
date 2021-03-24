@@ -7,8 +7,6 @@
 
 body{
     font-family: Roboto;
-    color: white;
-    font-weight: 300;
 }
 /* /Common Rules */
 
@@ -61,6 +59,8 @@ body{
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 115% 110%;
+    color: white;
+    font-weight: 300;
 }
 
 #site_header nav{
@@ -150,6 +150,23 @@ section > div > a{
  /**************
  Main
  **************/
+ .mid_cont{
+     background-color: rgba(211, 211, 211, 1);
+     height: 120px;
+     text-align: center;
+ }
+
+ main > section > div > h2{
+     color: black;
+     padding-top: 40px;
+     font-weight: 400;
+ }
+
+ main > section > div > h3{
+    color: rgba(130, 130, 130, 1);
+    padding-top: 15px;
+    font-weight: 400;    
+}
 
 
  /**************
