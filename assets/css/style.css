@@ -7,6 +7,7 @@
 
 body{
     font-family: Roboto;
+    min-width: 1000px;
 }
 /* /Common Rules */
 
@@ -33,6 +34,14 @@ body{
 
 .bg_grey{
     background-color: #D3D3D3;
+}
+
+.txt_grey{
+    color: #828282;
+}
+
+.txt_green{
+    color: #7CBB02;
 }
 
 .btn{
@@ -150,22 +159,86 @@ section > div > a{
  /**************
  Main
  **************/
- .mid_cont{
-     background-color: rgba(211, 211, 211, 1);
+ .top_container{
      height: 120px;
      text-align: center;
  }
 
  main > section > div > h2{
      color: black;
-     padding-top: 40px;
+     padding-top: 30px;
      font-weight: 400;
  }
 
  main > section > div > h3{
-    color: rgba(130, 130, 130, 1);
     padding-top: 15px;
     font-weight: 400;    
+}
+
+/* .dbg_bg{
+    background-color: blue;
+    height: 600px;
+}
+
+.dbg_border{
+    border: 3px solid black;
+} */
+
+.left_content, .mid_content, .right_content{
+    width: 30%;
+    margin: auto 1%;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+/* LEFT */
+.left_content{
+    
+}
+/* /LEFT */
+
+/* MID */
+.mid_content{
+
+}
+/* /MID */
+
+/* RIGHT */
+.right_content{
+
+}
+/* /RIGHT */
+
+.img{
+    width: 40%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
+
+.txt_content{
+    margin: 10px auto;
+    width: 85%;
+}
+
+.txt_content h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.txt_content p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.txt_content h3::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #828282;
+    display: block;
+    margin: 20px auto;
 }
 
 
