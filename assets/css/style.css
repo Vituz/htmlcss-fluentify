@@ -192,42 +192,36 @@ section > div > a{
     text-align: center;
     
 }
-/* LEFT */
-.left_content{
-    
-}
-/* /LEFT */
-
-/* MID */
-.mid_content{
-
-}
-/* /MID */
-
-/* RIGHT */
-.right_content{
-
-}
-/* /RIGHT */
 
 .img_container{
-    width: 150px;
-    height: 170px;
+    width: 140px;
+    height: 130px;
     margin: auto;
 }
 
-.image{
+.image_left{
     width: 100%;
-    object-fit: contain;
-    object-position: center;
+    background-image: url("../img/profile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.mid_img_container{
-    width: 200px;
-    height: 170px;
-    margin: auto;
+.image_mid{
+    width: 100%;
+    background-image: url("../img/computer.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+.image_right{
+    width: 100%;
+    background-image: url("../img/doc.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .txt_content{
     margin: 20px auto;
@@ -252,6 +246,33 @@ section > div > a{
     display: block;
     margin: 20px auto;
 }
+
+.content{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+.right{
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.mountain_img{
+    background-image: url("../img/mountain.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
  /**************
