@@ -247,32 +247,29 @@ section > div > a{
     margin: 20px auto;
 }
 
-.content{
-    width: 90%;
-    height: auto;
+
+.col-2{
+    width: 50%;
+    float: left;
+    padding: 40px 80px;
+}
+
+.row{
     margin: auto;
-    margin-top: 60px;
 }
 
-.left{
-    width: 50%;
-    float: left;
-    height: 500px;
+.row h3{
+    font-size: 30px;
 }
 
-.right{
-    width: 50%;
-    float: left;
-    height: auto;
+.row p{
+    padding: 15px 0;
+    font-weight: 600px;
 }
 
-.mountain_img{
-    background-image: url("../img/mountain.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.row a{
+    color: #5586BC;
 }
-
 
 
  /**************
